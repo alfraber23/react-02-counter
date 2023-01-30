@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const ButtonApp = ({children, onClick}) => {
+export const ButtonApp = ({children, onClick, className}) => {
   return (
     <>
     
-    <button onClick={onClick}>{children}</button>
+    <button className={className} onClick={onClick}>{children}</button>
 
     </>
   )
